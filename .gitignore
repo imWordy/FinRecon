@@ -61,3 +61,7 @@ Thumbs.db
 # Test vector store artifacts
 test_store/
 rag/test_store/
+
+# Presentation scripts and slides
+generate_ppt.py
+*.pptx
