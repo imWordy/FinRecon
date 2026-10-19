@@ -1,0 +1,61 @@
+/* FinRecon FinTech Clean Theme */
+
+.main-header {
+    font-size: 2.1rem;
+    font-weight: 700;
+    color: #1E3A8A;
+    margin-bottom: 0.2rem;
+}
+
+.sub-header {
+    font-size: 1.05rem;
+    color: #4B5563;
+    margin-bottom: 1.5rem;
+}
+
+.kpi-card {
+    background: #F9FAFB;
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+    padding: 1rem 1.2rem;
+    text-align: center;
+}
+
+.kpi-value {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #111827;
+}
+
+.kpi-label {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #6B7280;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.badge-auto {
+    background-color: #D1FAE5;
+    color: #065F46;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.badge-escalate {
+    background-color: #FEE2E2;
+    color: #991B1B;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.agent-step {
+    border-left: 3px solid #3B82F6;
+    padding-left: 10px;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+}
