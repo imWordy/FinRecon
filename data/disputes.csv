@@ -1,0 +1,3 @@
+dispute_id,payment_id,customer_id,dispute_date,claim_reason,status
+DISP-0001,TXN-0041,CUST-0153,2026-10-17 08:15:00,Charged twice for single order,OPEN
+DISP-0002,TXN-0043,CUST-0159,2026-10-18 09:15:00,Charged twice for single order,OPEN

@@ -1,0 +1,146 @@
+[
+  {
+    "order_id": "ORD-0001",
+    "payment_id": "TXN-0001",
+    "category": "MATCHED",
+    "case_id": "CASE_1",
+    "description": "Exact match across order, payment, and settlement",
+    "expected_resolution": "AUTO_RESOLVE_MATCHED"
+  },
+  {
+    "order_id": "ORD-0002",
+    "payment_id": "TXN-0002",
+    "category": "MATCHED",
+    "case_id": "CASE_1",
+    "description": "Exact match across order, payment, and settlement",
+    "expected_resolution": "AUTO_RESOLVE_MATCHED"
+  },
+  {
+    "order_id": "ORD-0003",
+    "payment_id": "TXN-0003",
+    "category": "MATCHED",
+    "case_id": "CASE_1",
+    "description": "Exact match across order, payment, and settlement",
+    "expected_resolution": "AUTO_RESOLVE_MATCHED"
+  },
+  {
+    "order_id": "ORD-0010",
+    "payment_id": "TXN-0010",
+    "category": "VALID_FEE_DEDUCTION",
+    "case_id": "CASE_2",
+    "description": "Difference explained by valid \u20b9100 fee and \u20b950 tax matching policy",
+    "expected_resolution": "AUTO_RESOLVE_VALID_FEE"
+  },
+  {
+    "order_id": "ORD-0011",
+    "payment_id": "TXN-0011",
+    "category": "VALID_FEE_DEDUCTION",
+    "case_id": "CASE_2",
+    "description": "Difference explained by valid \u20b9100 fee and \u20b950 tax matching policy",
+    "expected_resolution": "AUTO_RESOLVE_VALID_FEE"
+  },
+  {
+    "order_id": "ORD-0012",
+    "payment_id": "TXN-0012",
+    "category": "VALID_FEE_DEDUCTION",
+    "case_id": "CASE_2",
+    "description": "Difference explained by valid \u20b9100 fee and \u20b950 tax matching policy",
+    "expected_resolution": "AUTO_RESOLVE_VALID_FEE"
+  },
+  {
+    "order_id": "ORD-0013",
+    "payment_id": "TXN-0013",
+    "category": "VALID_FEE_DEDUCTION",
+    "case_id": "CASE_2",
+    "description": "Difference explained by valid \u20b9100 fee and \u20b950 tax matching policy",
+    "expected_resolution": "AUTO_RESOLVE_VALID_FEE"
+  },
+  {
+    "order_id": "ORD-0014",
+    "payment_id": "TXN-0014",
+    "category": "VALID_FEE_DEDUCTION",
+    "case_id": "CASE_2",
+    "description": "Difference explained by valid \u20b9100 fee and \u20b950 tax matching policy",
+    "expected_resolution": "AUTO_RESOLVE_VALID_FEE"
+  },
+  {
+    "order_id": "ORD-0025",
+    "payment_id": "TXN-0025",
+    "category": "MISSING_SETTLEMENT",
+    "case_id": "CASE_3",
+    "description": "Captured payment has no settlement record after T+3 business days",
+    "expected_resolution": "ESCALATE_GATEWAY_SETTLEMENT"
+  },
+  {
+    "order_id": "ORD-0026",
+    "payment_id": "TXN-0026",
+    "category": "MISSING_SETTLEMENT",
+    "case_id": "CASE_3",
+    "description": "Captured payment has no settlement record after T+3 business days",
+    "expected_resolution": "ESCALATE_GATEWAY_SETTLEMENT"
+  },
+  {
+    "order_id": "ORD-0027",
+    "payment_id": "TXN-0027",
+    "category": "MISSING_SETTLEMENT",
+    "case_id": "CASE_3",
+    "description": "Captured payment has no settlement record after T+3 business days",
+    "expected_resolution": "ESCALATE_GATEWAY_SETTLEMENT"
+  },
+  {
+    "order_id": "ORD-0040",
+    "payment_id": "TXN-0041",
+    "category": "POSSIBLE_DUPLICATE",
+    "case_id": "CASE_4",
+    "description": "Two captured payments for single order; dispute filed by customer",
+    "expected_resolution": "FLAG_SUSPECTED_DUPLICATE"
+  },
+  {
+    "order_id": "ORD-0041",
+    "payment_id": "TXN-0043",
+    "category": "POSSIBLE_DUPLICATE",
+    "case_id": "CASE_4",
+    "description": "Two captured payments for single order; dispute filed by customer",
+    "expected_resolution": "FLAG_SUSPECTED_DUPLICATE"
+  },
+  {
+    "order_id": "ORD-0055",
+    "payment_id": "TXN-0057",
+    "category": "REFUND_AMOUNT_EXCEPTION",
+    "case_id": "CASE_5",
+    "description": "Refund amount \u20b93,500 exceeds original payment amount \u20b93,000",
+    "expected_resolution": "REQUIRES_HUMAN_REVIEW"
+  },
+  {
+    "order_id": "ORD-0056",
+    "payment_id": "TXN-0058",
+    "category": "REFUND_AMOUNT_EXCEPTION",
+    "case_id": "CASE_5",
+    "description": "Refund amount \u20b93,500 exceeds original payment amount \u20b93,000",
+    "expected_resolution": "REQUIRES_HUMAN_REVIEW"
+  },
+  {
+    "order_id": "ORD-0070",
+    "payment_id": "TXN-0072",
+    "category": "REQUIRES_HUMAN_REVIEW",
+    "case_id": "CASE_6",
+    "description": "Observed difference of \u20b9500 has only \u20b9200 fee record; remaining \u20b9300 unexplained",
+    "expected_resolution": "REQUIRES_HUMAN_REVIEW"
+  },
+  {
+    "order_id": "ORD-0071",
+    "payment_id": "TXN-0073",
+    "category": "REQUIRES_HUMAN_REVIEW",
+    "case_id": "CASE_6",
+    "description": "Observed difference of \u20b9500 has only \u20b9200 fee record; remaining \u20b9300 unexplained",
+    "expected_resolution": "REQUIRES_HUMAN_REVIEW"
+  },
+  {
+    "order_id": "ORD-0072",
+    "payment_id": "TXN-0074",
+    "category": "REQUIRES_HUMAN_REVIEW",
+    "case_id": "CASE_6",
+    "description": "Observed difference of \u20b9500 has only \u20b9200 fee record; remaining \u20b9300 unexplained",
+    "expected_resolution": "REQUIRES_HUMAN_REVIEW"
+  }
+]
