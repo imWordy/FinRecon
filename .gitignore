@@ -57,3 +57,7 @@ chroma_db/
 *.swo
 .DS_Store
 Thumbs.db
+
+# Test vector store artifacts
+test_store/
+rag/test_store/
